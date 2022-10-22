@@ -1,0 +1,18 @@
+{
+  "name": "Twitter Notification Dots Cover",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "Twitterの通知バッチを雑な処理でとりあえず見えないようにするエクステンション",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ]
+}

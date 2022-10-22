@@ -1,1 +1,3 @@
 # twitter_notification_dots_cover
+
+Twitterの通知バッチを雑な処理でとりあえず見えないようにするChrome Extention
